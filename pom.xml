@@ -6,9 +6,9 @@
 	<groupId>com.neo</groupId>
 	<artifactId>spring-cloud-eureka</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
-	<name>spring-cloud-eureka</name>
+	<name>eureka</name>
 	<description>Demo project for Spring cloud eureka</description>
 
 	<parent>
@@ -54,6 +54,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>eureka</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
